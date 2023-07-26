@@ -1,0 +1,60 @@
+.ctn-second{
+margin-bottom: 10px;
+}
+.ctn-welcome h1{
+    font-size: 1.5rem;
+}
+.tablero{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    font-size: 1.2rem;
+}
+.tablero div{
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    font-weight: bold;
+}
+.tablero div:hover{
+    box-shadow: 2px 2px 4px rgb(63, 63, 63);
+    transform: scale(1.02 , 1.02);
+}
+
+.letra-color-a{
+    background-color: rgb(197, 224, 233);
+}
+.letra-color-b{
+    background-color: rgb(181, 230, 181);
+}
+.letra-color-c{
+    background-color: rgb(235, 165, 165);
+}
+.section-second{
+    position: relative;
+    align-items: center;
+    /* background-color: red; */
+}
+.words{
+    position: absolute;
+    bottom: 100px;
+    right: 110px;
+    /* background-color: rebeccapurple; */
+    font-size: 3.5rem;
+    display: flex;
+}
+.words div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 3px solid black;
+    margin: 0px 4px;
+    padding: 2px;
+}
+
+.disableText{
+    color: transparent;
+}
+.showText{
+    color: white;
+}

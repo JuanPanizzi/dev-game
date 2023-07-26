@@ -1,0 +1,12 @@
+.span-red, .btn-green{
+    background-color: rgb(3, 219, 3);
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.btn-gray{
+    background-color: red;
+    padding: 10px;
+}

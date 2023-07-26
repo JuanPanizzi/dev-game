@@ -1,0 +1,38 @@
+.ctn-error-pista{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.errores, .pista{
+    margin-top: 5px;
+  margin-left: 25px;
+  border: 2px solid black;
+  border-radius: 5px 5px;
+    color: black;
+    padding: 12px;
+}
+.errores span{
+    color: white;
+}
+.pista{
+    cursor: pointer;
+}
+.errores:hover, .pista:hover{
+    background-color: rgb(194, 194, 194);
+    box-shadow: 2px 2px 5px white;
+}
+
+.ctn-welcome{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px 5px;
+    padding: 10px;
+    line-height: 40px;
+}
+.click{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
