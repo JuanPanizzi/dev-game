@@ -13,6 +13,7 @@ import confetti from 'canvas-confetti'
 
 export const Home = () => {
 
+  const [position, setPosition] = useState(0);
   const [welcome, setWelcome] = useState(true)
   const [first, setFirst] = useState(false)
   const [second, setSecond] = useState(false)
@@ -21,7 +22,33 @@ export const Home = () => {
 const [sadDev, setSadDev] = useState(false)
 const [errores, setErrores] = useState(0)
 const [victory, setVictory] = useState(false)
-  
+
+// const resetPosition = () =>{
+//   setPosition(0)
+// }
+const handleMove = () =>{
+  if(position >=0 && position < 100){
+    let newPosition = position + 20
+      setPosition(newPosition)
+    }  
+  }
+  const handlePista = () =>{
+    switch (position) {
+      case 0:
+        alert('Tienes que clickear directamente sobre la palabra "AQUI"')
+        break;
+    case 20:
+        alert('¡Chequea la ortografía! ¡El botón rojo es el que dice "continuar". Clickea en él. ¡El verde esta mál escrito!')
+        break;
+    case 40:
+      alert('Chequea el titulo dentro del cuadro de abajo. En "¡Ayuda al dev!" está la v que buscas. Clickea en la v de la palabra "de-v-"')
+      break;
+      case 60:
+        alert('¡Has como el dev y sigue intentando! ¡En algún momento el botón se detendrá!')
+        break;
+      default:
+    }
+  }
   
     const handleWelcome = () =>{
       handleMove()
