@@ -1,12 +1,26 @@
-.span-red, .btn-green{
+.span-green, .btn-green{
     background-color: rgb(3, 219, 3);
     color: white;
     padding: 10px;
-    border-radius: 5px 5px;
-    font-size: 1.3rem;
+    border-radius: 5px;
     cursor: pointer;
+    font-size: 1.2rem;
+    font-weight:400;
 }
-.btn-gray{
+.btn-green{
+    font-weight: 100;
+}
+.btn-red{
     background-color: red;
-    padding: 10px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.ctn-btn-first{
+display: flex;
+justify-content: space-evenly;
+}
+@media (max-width: 576px) {
+    .btn-green, .btn-red, .span-green{
+        font-size: 1rem;
+    }
 }

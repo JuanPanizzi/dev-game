@@ -23,7 +23,7 @@ export const Home = () => {
     <section>
       <div className='ctn-error-pista'>
     <h1 className='errores'>Errores: <span>{errores} </span> </h1>
-      <h1 className='pista' onClick={handlePista}>Revelar Solución</h1>
+      <h1 className='pista' onClick={handlePista}>Ver Solución</h1>
       </div>
 
        { welcome && !first && <Welcome 

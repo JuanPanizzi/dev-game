@@ -48,7 +48,7 @@ export const Second = ({handleSecond}) => {
   return (
     <>
     <div className='ctn-second ctn-welcome'>
-        <h1>Elige las letras dentro del siguiente cuadro y haz click en las correspondientes para formar la palabra &quot;DEV&quot; </h1>
+        <h1>Clickea las letras del siguiente cuadro para formar la palabra &quot;DEV&quot; </h1>
 
     </div>
     <section className='section-second'>

@@ -1,9 +1,9 @@
 .ctn-second{
 margin-bottom: 10px;
 }
-.ctn-welcome h1{
+/* .ctn-welcome h1{
     font-size: 1.5rem;
-}
+} */
 .tablero{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -58,3 +58,17 @@ margin-bottom: 10px;
 .showText{
     color: white;
 }
+    @media (max-width: 576px) {
+        .section-second{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .words{
+            position: static;
+            font-size: 2rem;
+        }
+        .tablero{
+            font-size: 0.9rem;
+        }
+    }

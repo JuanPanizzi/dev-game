@@ -24,3 +24,14 @@ img{
     height: 30px;
     background-color: black;
 }
+@media (max-width: 576px) {
+    .dev, .hired{
+        width: 3rem;
+    }
+}
+@media (max-width: 768px){
+    .dev, .hired{
+        width: 4rem;
+    }
+
+}
