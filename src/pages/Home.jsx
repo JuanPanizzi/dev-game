@@ -6,6 +6,7 @@ import { First } from '../components/First';
 import { Second } from '../components/Second';
 import { Third } from '../components/Third';
 import {Fourth} from '../components/Fourth';
+import { usePosition } from '../hooks/usePosition';
 import confetti from 'canvas-confetti'
 //Hooks
 
@@ -13,7 +14,9 @@ import confetti from 'canvas-confetti'
 
 export const Home = () => {
 
-  const [position, setPosition] = useState(0);
+
+  const {position, handleMove} = usePosition()
+  
   const [welcome, setWelcome] = useState(true)
   const [first, setFirst] = useState(false)
   const [second, setSecond] = useState(false)
@@ -26,12 +29,7 @@ const [victory, setVictory] = useState(false)
 // const resetPosition = () =>{
 //   setPosition(0)
 // }
-const handleMove = () =>{
-  if(position >=0 && position < 100){
-    let newPosition = position + 20
-      setPosition(newPosition)
-    }  
-  }
+
   const handlePista = () =>{
     switch (position) {
       case 0:
