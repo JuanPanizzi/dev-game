@@ -1,9 +1,3 @@
-.color1 {color: #59ab80;}
-.color2 {color: #99bf88;}
-.color3 {color: #cace9b;}
-.color4 {color: #e5e0bc;}
-.color5 {color: #ededda;}
-
 .ctn-second{
 margin-bottom: 10px;
 }
@@ -28,13 +22,13 @@ margin-bottom: 10px;
 }
 
 .letra-color-a{
-    background-color: rgb(197, 224, 233);
+    background-color: #99bf88;
 }
 .letra-color-b{
-    background-color: rgb(181, 230, 181);
+    background-color: #cace9b;
 }
 .letra-color-c{
-    background-color: rgb(235, 165, 165);
+    background-color: #e5e0bc;
 }
 .section-second{
     position: relative;

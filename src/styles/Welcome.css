@@ -12,15 +12,20 @@
     padding: 12px;
     font-size: 1.2rem;
 }
-.errores span{
-    color: white;
-}
 .pista{
     cursor: pointer;
 }
+
 .errores:hover, .pista:hover{
-    background-color: rgb(194, 194, 194);
-    box-shadow: 2px 2px 5px white;
+    background-color: lightgreen;
+    box-shadow: 2px 2px 5px black;
+    color: black;    
+}
+.errores:hover{
+    background-color: lightcoral;
+}
+.errores span{
+    color: white;
 }
 
 .ctn-welcome{
@@ -75,17 +80,3 @@
     text-align: center;
 }
 }
-/* @media (max-width: 992px){
-    .ctn-welcome{
-        width: 70%;
-    }
-    .ctn-welcome h1, .ctn-welcome h2 {
-        font-size: 1.3rem;
-}
-.ctn-welcome h3 {
-    font-size: 1.1rem;
-}
-.errores, .pista{
-    font-size: 1rem;
-}
-} */

@@ -1,23 +1,32 @@
+.ctn-welcome-first{
+    line-height: 50px;
+}
 .span-green, .btn-green{
-    background-color: rgb(3, 219, 3);
+    background-color:rgb(6, 252, 6);
     color: white;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1.2rem;
     font-weight:400;
+    width: 15rem;
 }
 .btn-green{
     font-weight: 100;
+    margin: auto;
+    margin-bottom: 5px;
 }
 .btn-red{
     background-color: red;
     padding: 8px;
     border-radius: 5px;
+    margin: auto;
 }
 .ctn-btn-first{
-display: flex;
-justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-direction: column-reverse;
 }
 @media (max-width: 576px) {
     .btn-green, .btn-red, .span-green{

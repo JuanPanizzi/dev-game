@@ -13,9 +13,6 @@ export const Second = ({handleSecond}) => {
     const [showV, setShowV] = useState(false)
     const [completeDev, setcompleteDev] = useState([])
    
-
-    
-
     const handleShowText = (letra) =>{
         switch (letra) {
             case "d":
@@ -71,11 +68,9 @@ export const Second = ({handleSecond}) => {
     </div>
     </div>
     <div className='words'>
-
             <div><span className={showD ? "showText" : "disableText" }>D</span></div>
             <div><span className={showE ? "showText" : "disableText" }>E</span></div>
             <div><span className={showV ? "showText" : "disableText" }>V</span></div>
-
     </div>
 
     </section>

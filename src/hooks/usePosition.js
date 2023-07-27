@@ -29,7 +29,7 @@ const [errores, setErrores] = useState(0)
           alert('¡Chequea la ortografía! ¡El botón rojo es el que dice "continuar". Clickea en él. ¡El verde esta mál escrito!')
           break;
       case 40:
-        alert('Chequea el titulo dentro del cuadro de abajo. En "¡Ayuda al dev!" está la v que buscas. Clickea en la v de la palabra "de-v-"')
+        alert('Chequea el título dentro del cuadro de abajo. En el título "¡Ayuda al dev!" está la v que buscas. Clickea en la v de la palabra "dev" de dicho título')
         break;
         case 60:
           alert('¡Has como el dev y sigue intentando! ¡En algún momento el botón se detendrá!')
