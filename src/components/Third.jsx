@@ -16,7 +16,7 @@ export const Third = ({handleSadDev, sadDev, handleFourth}) => {
 
   return (
     <section className='ctn-third'>
-    <div className='ctn-welcome'>
+    <div className='ctn-welcome ctn-welcome-fs'>
     {sadDev ? 
     <>
       <h1>¡Oh no! ¡Nuestro Dev se ha desanimado!</h1> 

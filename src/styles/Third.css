@@ -4,6 +4,9 @@
     position: relative;
     text-align: center;
 }
+.ctn-welcome-fs{
+    font-size: 1.3rem;
+}
 .ctn-btn-third{
     margin: auto;
     width: 30%;
@@ -45,3 +48,24 @@
        bottom: 80%;
         right: 2%;
     }
+    @media (max-width: 992px) {
+        .btn-third{
+            font-size: 1.1rem;
+        }
+    
+    }
+    @media (max-width: 768px) {
+        .btn-third{
+            font-size: 1rem;
+        }
+        
+    }
+    @media (max-width: 576px) {
+    .btn-third, .btn-third-advice{
+        font-size: 0.9rem;
+    }
+    .btn-third-advice, .btn-advice-left, .btn-advice-right{
+        font-size: 0.8rem;
+    }
+    
+}

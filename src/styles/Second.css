@@ -1,3 +1,9 @@
+.color1 {color: #59ab80;}
+.color2 {color: #99bf88;}
+.color3 {color: #cace9b;}
+.color4 {color: #e5e0bc;}
+.color5 {color: #ededda;}
+
 .ctn-second{
 margin-bottom: 10px;
 }
@@ -33,15 +39,17 @@ margin-bottom: 10px;
 .section-second{
     position: relative;
     align-items: center;
-    /* background-color: red; */
 }
 .words{
     position: absolute;
-    bottom: 100px;
-    right: 110px;
-    /* background-color: rebeccapurple; */
+    bottom: 40%;
+    right: 4%;
     font-size: 3.5rem;
     display: flex;
+    border: 2px solid black;
+    padding: 5px;
+    padding-bottom: 10px;
+    border-radius: 5px;
 }
 .words div{
     display: flex;
@@ -58,12 +66,38 @@ margin-bottom: 10px;
 .showText{
     color: white;
 }
+@media (max-width: 992px) {
+    .section-second{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .words{
+        position: static;
+    }
+    .ctn-second{
+        line-height: 30px;
+    }
+
+}
+@media (max-width: 768px) {
+    
+    .words{
+        position: static;
+        font-size: 2rem;
+    }
+    .tablero{
+        font-size: 0.9rem;
+    }
+    .ctn-second{
+        line-height: 35px;
+    }
+}
     @media (max-width: 576px) {
-        .section-second{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        .ctn-second{
+            line-height: 30px;
         }
+        
         .words{
             position: static;
             font-size: 2rem;

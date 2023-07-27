@@ -15,7 +15,7 @@ useEffect(() => {
 return(
 
   <section className='ctn-third'>
-  <div className='ctn-welcome'>
+  <div className='ctn-welcome ctn-welcome-fs'>
   <h1>¡Nuestro dev no ha parado de intentarlo gracias a tu consejo y ha conseguido trabajo!</h1>
         <h1>¡Felicitaciones!</h1>
   </div>
