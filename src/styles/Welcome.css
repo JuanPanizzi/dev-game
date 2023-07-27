@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    padding: 5px;
 }
 .errores, .pista{
     margin-top: 5px;
@@ -9,8 +10,13 @@
   border: 2px solid black;
   border-radius: 5px 5px;
     color: black;
-    padding: 12px;
+    padding: 15px;
     font-size: 1.2rem;
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    min-width: 110px;
+    max-height: 45px;
 }
 .pista{
     cursor: pointer;
@@ -68,15 +74,15 @@
     .ctn-welcome h3 {
         font-size: 1rem;
 }
+.ctn-error-pista{
+    display: flex;
+    justify-content: center;
+}
 .errores, .pista {
     margin-left: 10px;
     border: 2px solid black;
     border-radius: 5px 5px;
     color: black;
-    padding: 12px;
-    min-width: 25%;
-    max-width: 28%;
     font-size: 0.8rem;
-    text-align: center;
 }
 }
