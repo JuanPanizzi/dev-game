@@ -80,7 +80,7 @@ const [errores, setErrores] = useState(0)
     }
     const handleErrores = ()=>{
       setErrores(errores+1)
-      alert('¡Error! ¡Sumaste un error!')
+      alert('¡Error! ¡Sumaste un error! Puedes clickear en "ver solucion" para tener una ayuda')
   }
   
   
