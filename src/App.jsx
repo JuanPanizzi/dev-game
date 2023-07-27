@@ -1,4 +1,4 @@
-import { Home } from './pages/Home.JSX'
+import { Home } from "./pages/Home"
 
 function App() {
   

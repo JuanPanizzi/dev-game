@@ -7,9 +7,6 @@ import { Second } from '../components/Second';
 import { Third } from '../components/Third';
 import {Fourth} from '../components/Fourth';
 import { usePosition } from '../hooks/usePosition';
-//Hooks
-
-
 
 export const Home = () => {
 
