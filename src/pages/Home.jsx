@@ -17,7 +17,6 @@ export const Home = () => {
   const {position, welcome, sadDev, first, second, third, fourth, victory, errores, handleWelcome, handleSadDev, 
     handlePista, handleFirst, handleSecond, handleReset, handleFourth, handleErrores, handleVictory} = usePosition()
 
-  
     return (
     <main>
     <section>
